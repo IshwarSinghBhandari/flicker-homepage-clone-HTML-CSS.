@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Geologica', sans-serif;
+}
+
+nav {
+    position: static;
+    background-color: rgba(0, 0, 0, 0.25);
+    display: flex;
+    padding: 14px;
+    justify-content: space-between;
+}
+
+.left-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.68rem;
+}
+
+.dot {
+    height: 12px;
+    width: 12px;
+    margin-left: 5px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+.dot1 {
+    background-color: #40128B;
+}
+
+.fli a {
+    font-weight: 700;
+    color: azure;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+    .search {
+        margin-left: 5px;
+        position: relative;
+    }
+
+    .search i {
+        position: absolute;
+        z-index: 1;
+        margin: 8px 10px 10px 10px;
+    }
+
+    .search input {
+        border-radius: border-box;
+        font-size: 1rem;
+        border-radius: 4px;
+        z-index: 0;
+        border: none;
+        width: 42vw;
+        padding: 8px 8px 8px 35px;
+        background-color: #f5f0f0;
+    }
+
+.right-nav {
+    display: flex;
+}
+
+.right-nav div {
+    padding: 6px 5px 6px 10px;
+}
+
+.but a {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.log a {
+    border-radius: 4px;
+    padding: 5px 20px 5px 20px;
+    color: #f5f0f0;
+}
+
+.sign a {
+    border-radius: 4px;
+    background-color: #f5f0f0;
+    padding: 5px 20px 5px 20px;
+    color: black;
+}
+
+.main {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5SKXW91VJw64PWZ2rCrUJYyX1YwN8bSsn8DCS6xiiTvhkuFq56V5xmg56cGkkVqfnJ-Y&usqp=CAU");
+    background-size: cover;
+    height: 90vh;
+}
+
+.center {
+    text-align: center;
+    color: #fff9f9;
+}
+
+.center h1 {
+    padding-top: 5rem;
+    font-size: 3.4rem;
+}
+
+.center h2 {
+    padding-top: 1.6rem;
+    font-size: 1.6rem;
+}
+
+.center button {
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    margin-top: 50px;
+    padding: 16px 30px;
+    font-size: x-large;
+}
+
+footer {
+    height: 10vh;
+    background-color: black;
+    color: hsla(0, 0%, 100%, 0.6);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: hsla(0, 0%, 100%, 0.6);
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+footer a i {
+    font-size: larger;
+}
+.aft1{
+    width: 40%  ;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+
+   }
+select {
+    font-size: 0.8rem;
+    padding: 10px;
+    border: none;
+    background-color: black;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+option {
+    font-size: 1.2rem;
+}
+
+.col {
+    flex: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.col1 {
+    flex: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 1000px) {
+    .main {
+        height: 100vh;
+    }
+
+    footer {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .coll {
+        width: 100%;
+        padding: 0 30px 0 30px;
+        border-bottom: 1px solid white;
+    }
+
+    .aft::after {
+        font-size: 0.8rem;
+        content: "Connecting people through photography";
+    }
+
+   .aft1{
+    width: 20%  ;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+   }
+   .bi{
+    font-size: 20px;
+   }
+    .col {
+        padding: 10px;
+    }
+
+    .col1 {
+        padding: 10px;
+    }
+}
+@media (max-width: 740px) {
+    .sign {
+        display: none;
+    }
+@media (max-width: 650px) {
+    .center h2{
+        display: none;
+    }
+    .center h1{
+        font-size: 2.5rem;
+    }
+    .center button{
+        margin-top: 2rem;
+        border: none;
+        font-size: 1rem;
+        padding: 12px 15px;
+        
+    }
+    footer{
+        flex-direction: column;
+    }
+    .coll{
+        flex-direction: column;
+        border: none;
+    }
+    .coll a{
+        padding: 10px 10px 10px 0px;
+        margin: 0 20px 0 10px;
+        border-bottom: 0.5px solid white;
+        width: 90%;
+        border-opacity: 0.5;
+    }
+    #languages{
+        padding: 10px 10px 10px 0px;
+        margin: 0 20px 0 10px;
+        border-bottom: 0.5px solid white;
+        width: 92%;
+        border-opacity: 0.5;
+    }
+    .col1 a{
+        border: none;
+    }
+    .aft{
+        text-align: center;
+    }
+    .aft a{
+       margin-right: 0px;
+    }
+    .aft1{
+        padding: 20px;
+        font-size: x-larger;
+    }
+    
+}
+}
+@media (max-width:550px) {
+    .log a {
+     
+        padding: 4px 16px 4px 16px;
+        
+    }
+    .fli a{
+        font-size: 1.4rem;
+    }
+    
+}
+@media (max-width:500px){
+    .search input{
+        width: 24vw;
+    }
+}
+@media (max-width:360px) {
+    .search{
+        display: none;
+    }
+}
