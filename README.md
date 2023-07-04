@@ -1,4 +1,7 @@
 # flicker-homepage-clone-HTML-CSS.
+
+https://www.flickr.com/
+
 This project is a clone of the homepage of the popular photo-sharing website, Flickr. It is built using HTML and CSS
 
 This project is a clone of the homepage of the popular photo-sharing website, Flickr. It is built using HTML and CSS, and aims to replicate the overall layout and design of the original site homepage. The clone provides a visually appealing and responsive interface that allows users to explore and discover stunning photographs from various categories.
